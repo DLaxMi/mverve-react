@@ -1,0 +1,85 @@
+h2 {
+    color: #4C3E79;
+    font-family: Lato Bold;
+    float: left;
+    margin-top: 20px !important;
+    margin-bottom: 0px !important;
+    padding-left: 50px;
+    font-weight: bold;
+
+}
+h4 {
+  color: #4C3E79;
+  font-weight: bold;
+  margin-top: 20px;
+  text-align: center;
+
+}
+  .grid-container {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+  }
+  .Container {
+    margin:50px;
+  }
+  .row-one {
+    margin-top: 80px !important;
+    display: grid;
+    grid-template-columns: 2fr 2fr 1fr;
+    grid-gap: 10px;
+  }
+  .row-two {
+    display: grid;
+    grid-template-columns: 3fr 3fr;
+    grid-gap: 10px;
+  }
+  .row-three {
+    display: grid;
+    grid-template-columns: 3fr 3fr;
+    grid-gap: 10px;
+  }
+  .row-des {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+  }
+  #password, #confirmPassword {
+    background-image: url('./see_password_icon.png');
+    top:5px;
+    background-position: right;
+    padding-right: 30px;
+    align-items: center;
+    background-size: 30px;
+    background-repeat: no-repeat;
+    border-radius: 8px;
+  }
+  p {
+    float: right;
+  }
+img {
+    width: 100%;
+    
+}
+.btn-reset {
+  padding:10px 30px;
+  border-color: #4C3E79 !important;
+  border-style: solid;
+  border-radius: 50px;
+  background-color: white;
+  color: #4C3E79;
+  font-family: Lato Bold;
+  margin: 20px;
+  text-transform: uppercase;
+}
+.btn-submit {
+  padding:10px 30px;
+  border: 1px #4C3E79 ;
+  border-radius: 50px;
+  background-color: #4C3E79;
+  color: white;
+  font-family: Lato;
+  text-transform: uppercase;
+}
+.btn-reset:focus {
+  outline: none;
+}
+
